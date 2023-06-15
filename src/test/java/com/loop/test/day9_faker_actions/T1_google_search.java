@@ -33,9 +33,9 @@ public class T1_google_search {
         DocuportUtils.login(Driver.getDriver(),"client");
     }
 
-    @AfterClass
-    public void tearDown(){
-        Driver.closeDriver();
-    }
+//    @AfterClass
+//    public void tearDown(){
+//        Driver.closeDriver();
+//    }
 
 }

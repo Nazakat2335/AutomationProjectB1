@@ -36,7 +36,7 @@ WebElement account=Driver.getDriver().findElement(By.xpath("//ol[@id='bank']/li"
      String expected="Perfect!";
      String actual=successMessage.getText();
         Assert.assertEquals(expected,actual);
-        Driver.closeDriver();
+     //   Driver.closeDriver();
 
     }
 }
